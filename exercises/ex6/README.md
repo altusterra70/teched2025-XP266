@@ -26,7 +26,7 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 10. In status "Approved for Production" you can trigger the deployment to Production by clicking Deploy in the Transports section.
 11. Refresh the section to retrieve the import result.
 
-## Exersice 6.2 - Find and access the deployed applications
+## Exercise 6.2 - Find and access the deployed applications
 
 After completing these steps you will have...
 
