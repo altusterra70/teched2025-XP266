@@ -17,7 +17,7 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 5. In the selection dialog search for **your transport IDs** (prefix is the destination name of the connection between Cloud ALM and CTMS).
 
     <br>![alt text](../ex6/images/transport_search.png)
-6. Select both transports - the one for your UI5 app and the one for Mobile Services - and click "Assign".
+6. Select both transports - the one for your Fiori app and the one for your Mobile Services app - and click "Assign".
 
     <br>![alt text](../ex6/images/transport_select.png)
 7. Save and Close the Feature.
@@ -34,8 +34,6 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 2. Click **"Deploy"** and confirm the deployment to the target node in the dialog.
 
     <br>![alt text](../ex6/images/trigger_deploy_QA.png)
-
-    <br>![alt text](../ex6/images/confirm_deploy_QA.png)
 3. The Status of the transports is changed to "Deployment Scheduled in QA".
 
      <br>![alt text](../ex6/images/deployment_scheduled_QA.png)
@@ -61,19 +59,27 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 10. In status "Approved for Production" you can **trigger the deployment to production by clicking "Deploy"** in the Transports section. Confirm the dialog for the deployment to target tenant PRD.
 
     <br>![alt text](../ex6/images/deploy_to_prod.png)
-
-    <br>![alt text](../ex6/images/confirm_deploy_PRD.png)
 11. Refresh the section to retrieve the import results.
 
     <br>![alt text](../ex6/images/deployed_in_PRD.png)
 
 ## Exercise 6.2 - Find and access the deployed applications
 
-1. Before confirming the Feature deployment to Prodiuction you can check in the Production environment for your deployed application.
+1. Before confirming the Feature deployment to production you can check your deployed applications in the production environment. In your BTP subaccount named with XP266_PROD0XX in the SAP BTP cockpit, go to Cloud Foundry Environment and select the **dev** space. 
 
-2. Acces your bookshop application and the Mobile Service to validate the correct funtion of them
+    <br>![alt text](../ex6/images/dev_space.png)
+2. In the application list click on **bookshop-srv**.
 
-3. After validating the correctness you can confirm the Fyour Feature in SAP CLoud ALM by clicking "Confrim Deployment".
+    <br>![alt text](../ex6/images/bookshop_srv.png)
+3. Go to Application Routes and click the link below.
+
+    br>![alt text](../ex6/images/bookshop_app.png)
+4. Click on /admin-books/webapp/index.html and verify that the new entries appear.
+
+    br>![alt text](../ex6/images/verify_book_entries.png)
+5. Now verify the same for your Mobile Services app.
+
+6. After validating the correctness you can confirm the your Feature in SAP CLoud ALM by clicking "Confirm Deployment".
 
     <br>![alt text](../ex6/images/confirm_deployment.png)
 4. The status "Deployed" is the final state of the Feature. It cannot be changed anymore.
@@ -82,3 +88,5 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 
 ## Summary
 In this exercise you have learned how to deploy changes via Feature in SAP Cloud ALM through your landscape. In addition you were able to keep track by using the Feature Traceability and confirm the correct function in Production. 
+
+Congratulations! You have successfully completed the hands-on session!

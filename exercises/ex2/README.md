@@ -46,6 +46,8 @@ In this exercise, we will check whether the integration between SAP Cloud ALM an
 
     <br>![alt text](images/feature_in_overview.png)
 
+Congratulations, you have created your Feature!
+
 ## Summary
 
 In this exercise you've verified that the integration between SAP Cloud ALM and SAP Cloud Transport Management has been established through SAP BTP detsintaion properly. The Feature for later usage in the deployment process is available in status "In Implementation".

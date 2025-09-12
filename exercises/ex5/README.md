@@ -1,10 +1,10 @@
 # Verify all Release Steps
 
-In this exercise, we will verify the pipeline job status covering the different stages. Especially the release stage for the SAP Cloud Transport Management transport and the result are of interest.
+In this exercise, we will verify the pipeline job status covering the different stages. Especially the release stage for the handover to SAP Cloud Transport Management and the result are of interest.
 
 ## Exercise 5.0 - Check the Pipeline Job Status
 
-1. Go to [Continuous Integration & Delivery service](https://xp266-central000-aoh299xc.eu10.cicd.cloud.sap/ui/index.html).
+1. Go to SAP Continuous Integration & Delivery.
 
     <br> ![](images/CI_D_service.png)
 2. In the Jobs area click on your pipeline job.
@@ -23,19 +23,18 @@ In this exercise, we will verify the pipeline job status covering the different 
 
 ## Exercise 5.1 - Verify Transports created in SAP Cloud Transport Management
 
-1. Open [SAP Cloud Transport Management service](https://xp266-central000-aoh299xc.ts.cfapps.eu10.hana.ondemand.com/main/webapp/index.html).
-2. Go to Transport Nodes.
+1. Open SAP Cloud Transport Management and go to Transport Nodes.
 
     <br>![alt text](images/transport_nodes.png)
-3. Select the node QA and navigate to the import queue by clicking on the line item.
+2. Select the node QA and navigate to the import queue by clicking on the line item.
 
     <br>![alt text](images/nav_to_import_queue.png)
-4. Look for your transport ID. The transport will appear in status "Initial".
+3. Look for your transport IDs. The transports will appear in status "Initial".
 
     <br>![alt text](images/import_queue.png)
 
 ## Summary
 
-You've now verified the pipeline and release steps. Furthermore, you know the transport is available in SAP Cloud Transport Management for your delivery to Quality Assurance and Production.
+Well done! You've now verified the pipeline and release steps. Furthermore, you know the transports are available in SAP Cloud Transport Management for your delivery to Quality Assurance and Production.
 
 Continue with [Manage your Feature in Cloud ALM & Deployment](../ex6/README.md)
