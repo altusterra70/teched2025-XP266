@@ -10,23 +10,23 @@ In this exercise, we will verify the pipeline job status covering the different 
 2. In the Jobs area click on your pipeline job.
 
     <br> ![](images/CI_D_Job.png)
-3. Check whether the pipeline job finished successfully and click on the finished result to check the execution log.
+3. Check whether the pipeline job finished successfully and **click on the finished build result** to check the execution log.
 
     <br>![alt text](images/job_successful.png)
-4. Browse through the different stages and click on the Release stage.
+4. Browse through the different stages and click on the **Release stage**.
 
     <br>![alt text](images/release_stage.png)
-5. In the log file search for "createdTransportRequestId".
+5. In the log file search for **"createdTransportRequestId"**.
 
     <br>![alt text](images/transport_id_log.png)
 6. This transport will be available in your SAP Cloud Transport Management tenant.
 
 ## Exercise 5.1 - Verify Transports created in SAP Cloud Transport Management
 
-1. Open SAP Cloud Transport Management and go to Transport Nodes.
+1. Open SAP Cloud Transport Management and **go to Transport Nodes**.
 
     <br>![alt text](images/transport_nodes.png)
-2. Select the node QA and navigate to the import queue by clicking on the line item.
+2. Select the node **QA** and **navigate to the import queue** by clicking on the line item.
 
     <br>![alt text](images/nav_to_import_queue.png)
 3. Look for your transport IDs. The transports will appear in status "Initial".

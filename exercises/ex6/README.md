@@ -17,11 +17,12 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 5. In the selection dialog search for **your transport IDs** (prefix is the destination name of the connection between Cloud ALM and CTMS).
 
     <br>![alt text](../ex6/images/transport_search.png)
-6. Select both transports - the one for your Fiori app and the one for your Mobile Services app - and click "Assign".
+6. **Select the transport for your Fiori app** and click "Assign". Additionally, select the transport for your Mobile Services app if you've performed the optional exercise.
 
     <br>![alt text](../ex6/images/transport_select.png)
 7. Save and Close the Feature.
-8. The Transports are assigned to your Feature.
+
+8. The transports are assigned to your Feature.
 
     <br>![alt text](../ex6/images/transport_assigned.png)
 
@@ -46,14 +47,15 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 5. Now you can **change the Feature status to "In Testing"** by clicking **"Handover to Test"**.
 
     <br>![alt text](../ex6/images/handover_test.png)
-6. The action "Confirm Successful Test" will be **executed centrally**.
+6. Let's assume the test has been successful - click on action button **"Confirm Successful Test"**.
+
 7. Click on **"Analytics"** in the top right corner to **access the Feature Traceability**.
 
     <br>![alt text](../ex6/images/feature_traceability_nav.png)
-8. Check whether your feature is in **status "Successfully Tested"**.
+8. There you can check whether your Feature is in **status "Successfully Tested"**.
 
     <br>![alt text](../ex6/images/feature_traceability.png)
-9. Navigate back to the feature and **approve the Feature for Production** by clicking "Approve for Production".
+9. Navigate back to the Feature and **approve the Feature for Production** by clicking "Approve for Production".
 
     <br>![alt text](../ex6/images/approve_for_prod.png)
 10. In status "Approved for Production" you can **trigger the deployment to production by clicking "Deploy"** in the Transports section. Confirm the dialog for the deployment to target tenant PRD.
@@ -71,18 +73,18 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 2. In the application list click on **bookshop-srv**.
 
     <br>![alt text](../ex6/images/bookshop_srv.png)
-3. Go to Application Routes and click the link below.
+3. Go to **Application Routes** and click the link below.
 
     br>![alt text](../ex6/images/bookshop_app.png)
-4. Click on /admin-books/webapp/index.html and verify that the new entries appear.
+4. Click on **/admin-books/webapp/index.html** and verify that the new entries appear.
 
     br>![alt text](../ex6/images/verify_book_entries.png)
 5. Now verify the same for your Mobile Services app.
 
-6. After validating the correctness you can confirm your Feature in SAP CLoud ALM by clicking "Confirm Deployment".
+6. After validating the correctness you can **confirm your Feature** in SAP Cloud ALM **by clicking "Confirm Deployment"**.
 
     <br>![alt text](../ex6/images/confirm_deployment.png)
-7. The status "Deployed" is the final state of the Feature. It cannot be changed anymore.
+7. The **status "Deployed"** is the **final state of the Feature**. It cannot be changed anymore.
 
     <br>![alt text](../ex6/images/status_deployed.png)
 
