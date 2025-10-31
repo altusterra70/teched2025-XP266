@@ -14,7 +14,7 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 4. Go to the **Transports** section and click **"Assign"**.
 
     <br>![alt text](../ex6/images/transport_assign.png)
-5. In the selection dialog search for **your transport IDs** (prefix is the destination name of the connection between Cloud ALM and CTMS).
+5. In the selection dialog search for **your transport IDs** (prefix is the destination name of the connection between SAP Cloud ALM and SAP Cloud Transport Management).
 
     <br>![alt text](../ex6/images/transport_search.png)
 6. **Select the transport for your Fiori app** and click "Assign". Additionally, select the transport for your Mobile Services app if you've performed the optional exercise.
